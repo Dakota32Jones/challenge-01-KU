@@ -22,7 +22,7 @@ header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* Shortened the class tag to not repeat the header tag and have redundancy */
 .seo {
   color: #d9dcd6;
 }
@@ -48,12 +48,14 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/* changed padding and image position to even out the page. Elements should be evenly spaced among the page. */
 .heroImage {
-  height: 800px;
+  display: flex;
+  height: 1125px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
+  padding-left: 20px;
+  padding-right: 20px;
   background-size: cover;
   background-position: center;
 }
@@ -107,11 +109,12 @@ main {
 }
 
 /* aside element reflects html to provide sidebar styling */
-/* aside content should have all the same styling as html page */
+/* aside content should have all the same styling as html page 
+also changed the padding to line up all the elements*/
 
 aside {
   margin-right: 20px;
-  padding: 20px;
+  padding: 25px;
   clear: both;
   float: right;
   width: 20%;
