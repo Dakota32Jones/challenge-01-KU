@@ -18,13 +18,9 @@ Installation is not applicable as this website was already running.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+![](<assets/images/Screen%20Shot%202022-06-16%20at%205.50.58%20PM%20(2).png>)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![](assets/images/Screen%20Shot%202022-06-16%20at%205.53.15%20PM.png)
 
 ## Credits
 
